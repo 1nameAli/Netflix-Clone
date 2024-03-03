@@ -1,0 +1,283 @@
+/* Css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.home1 {
+    background-image: url("img/bg1.jpg");
+    height: 45rem;
+    width: 100%;
+
+}
+
+/* main contains logo and logo containns img and button */
+.main {
+    display: flex;
+}
+
+button {
+    margin-left: 1100px;
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: -90px;
+    margin-left: 300px;
+}
+
+/* content contains content2 and content2 contains h1,p and two input types */
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+.content2 h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.content2 p {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+
+input[type=email] {
+    height: 33px;
+    margin-left: 350px;
+    margin-top: 16px;
+    width: 365px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+input[type=submit] {
+    width: 120px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+/* home2 contains tv and tv contains h1 ,p and img */
+.home2 {
+    background-color: black;
+    height: 30rem;
+    width: 100%;
+    border-top: 5px solid grey;
+}
+
+.tvpic {
+    height: 400px;
+    width: 500px;
+    margin-left: 950px;
+    margin-top: -250px;
+}
+
+.tv {
+    margin-top: 180px;
+}
+
+.heading2 {
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+.p2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+
+/* home2 contains mob and mob contains h1 ,p and img */
+.home2 {
+    height: 40rem;
+    width: 100%;
+    border-top: 5px solid grey;
+    display: flex;
+    align-items: center;
+
+}
+
+.heading3 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-left: 700px;
+    margin-right: 100px;
+    text-wrap: wrap;
+    margin-top: 200px;
+
+}
+
+.p3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 700px;
+
+
+
+}
+
+.mob1 {
+    height: 400px;
+    width: 400px;
+    margin-top: -500px;
+    padding-top: 200px;
+    padding-left: 100px;
+
+}
+
+/* home3 contains head3 and head3 contains h1,h1,p,p,p */
+.home3 {
+    height: 25rem;
+    width: 100%;
+    background-color: black;
+    border-top: 5px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.head3 {
+    margin-left: 300px;
+}
+
+.heading4 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+}
+
+.p4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+/* home4 contains kids and kids contain h1,p,p  and img*/
+.home4 {
+    height: 40rem;
+    width: 100%;
+    background-color: black;
+    border-top: 5px solid grey;
+    display: flex;
+    align-items: center;
+
+}
+
+.heading5 {
+    margin-left: 645px;
+    margin-top: -350px;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.p5 {
+    margin-left: 650px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 6px;
+
+}
+
+.kids1 {
+    height: 500px;
+    width: 500px;
+    padding-left: 100px;
+    margin-top: -90px;
+
+}
+
+/* home5 contains ques and ques contain h1 input type 5 */
+.home5 {
+    height: 40rem;
+    width: 100%;
+    background-color: black;
+    border-top: 5px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading6 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-left: 200px;
+
+}
+
+input[type=text] {
+    width: 65%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-left: 200px;
+    font-size: 1.5rem;
+    border: 2px solid grey;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.PP {
+    margin-left: 340px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+
+
+.ques input[type=submit] {
+    margin-right: 340px;
+}
+
+/* home6 contain heading7 and heading7 contains ul and li */
+.home6 {
+    height: 25rem;
+    width: 100%;
+    background-color: black;
+    border-top: 5px solid grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading7 {
+    display: flex;
+    align-items: center;
+
+    padding-top: 50px;
+}
+
+.heading7 ul li {
+    list-style-type: none;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
